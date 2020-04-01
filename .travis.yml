@@ -15,11 +15,10 @@ deploy:
   secret_access_key: q4yur6mQApd68SoryW5EVloto8eilif8zgHE4CJ0
   bucket: flodobucket
   local_dir: build
-  acl: public_read
-  on : flodo
+  on :
+  branch: flodo
   provider: s3
     access_key_id: AKIAZ6D3ZBJDNOSJZGRC
     secret_access_key: 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
     bucket: flodobucket2
     local_dir: build
-    acl: public_read
