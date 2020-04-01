@@ -19,4 +19,4 @@ deploy:
   secret_access_key: q4yur6mQApd68SoryW5EVloto8eilif8zgHE4CJ0
   bucket: flodobucket2
    on:
-     branch: flodo
+     branch: master
