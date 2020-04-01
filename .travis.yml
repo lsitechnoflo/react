@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- stable
+cache:
+  directories:
+  - node_modules
+script:
+- npm test
+- npm run build
+deploy:
+  provider: s3
+  access_key_id: AKIAZ6D3ZBJDNOSJZGRC
+  secret_access_key: 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
+  bucket: flodobucket
+  local_dir: build
+  acl: public_read
